@@ -4,6 +4,14 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
+body{
+    font-family: sans-serif;
+}
+
+main{
+    margin: 0 20%;
+}
+
 
 
 
@@ -12,9 +20,36 @@ header{
     padding-top: 1.5em;
 }
 
-p{
+.paragrafo{
     margin-top: 3em;
     margin-left: 20%;
     margin-right: 20%;
    
+}
+
+img{
+    height: 65px;;
+    float: left;
+    margin-right: 0.5em;
+}
+
+
+
+.clear-fix::after{
+    content:"";
+    clear: both;
+    display: block;
+}
+
+.col{
+    float: left;
+    width: calc(100% / 3);
+    padding: 3em;
+}
+
+.cornice{
+background-color: black;
+color: white;
+
+
 }
